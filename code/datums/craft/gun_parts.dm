@@ -355,7 +355,7 @@
 	mag_well = MAG_WELL_RIFLE|MAG_WELL_RIFLE_L|MAG_WELL_RIFLE_D
 
 /obj/item/part/gun/modular/mechanism/autorifle/burst
-	name = "self-loading mechanism"
+	name = "self-loading mechanism (burst)"
 	desc = "All the bits that makes the bullet go bang, for all the military hardware you know and love."
 	icon_state = "mechanism_autorifle"
 	matter = list(MATERIAL_PLASTEEL = 10)
@@ -366,7 +366,7 @@
 	I.weapon_upgrades[GUN_UPGRADE_FIREMODES] = list(BURST_3_ROUND, BURST_5_ROUND)
 
 /obj/item/part/gun/modular/mechanism/autorifle/fullauto
-	name = "self-loading mechanism"
+	name = "self-loading mechanism (full-auto)"
 	desc = "All the bits that makes the bullet go bang, for all the military hardware you know and love."
 	icon_state = "mechanism_autorifle"
 	matter = list(MATERIAL_PLASTEEL = 10)
@@ -378,7 +378,7 @@
 
 // Determined - slower firerate, but no loss in damage. Total point value: +3
 /obj/item/part/gun/modular/mechanism/autorifle/determined
-	name = "self-loading mechanism"
+	name = "self-loading mechanism (burst, full-auto)"
 	desc = "All the bits that makes the bullet go bang, for all the military hardware you know and love."
 	icon_state = "mechanism_autorifle"
 	matter = list(MATERIAL_PLASTEEL = 10)

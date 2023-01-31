@@ -43991,8 +43991,8 @@
 /obj/effect/window_lwall_spawn/smartspawn,
 /obj/machinery/door/blast/shutters{
 	dir = 8;
-	name = "First Officer Line Access";
-	id = "firstofficer_access"
+	id = "firstofficer_access";
+	name = "First Officer Line Access"
 	},
 /turf/simulated/floor/plating,
 /area/eris/command/fo)
@@ -44027,8 +44027,8 @@
 /obj/effect/window_lwall_spawn/smartspawn,
 /obj/machinery/door/blast/shutters{
 	dir = 8;
-	name = "First Officer Line Access";
-	id = "firstofficer_access"
+	id = "firstofficer_access";
+	name = "First Officer Line Access"
 	},
 /turf/simulated/floor/plating,
 /area/eris/command/fo)
@@ -44779,8 +44779,8 @@
 	},
 /obj/machinery/door/blast/shutters{
 	dir = 8;
-	name = "First Officer Line Access";
-	id = "firstofficer_access"
+	id = "firstofficer_access";
+	name = "First Officer Line Access"
 	},
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/eris/command/fo)
@@ -56312,6 +56312,7 @@
 /obj/structure/bed/chair{
 	dir = 4
 	},
+/mob/living/carbon/human,
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/eris/hallway/main/section3)
 "cFe" = (
@@ -57887,6 +57888,9 @@
 /obj/structure/railing{
 	dir = 4
 	},
+/obj/structure/railing{
+	dir = 8
+	},
 /turf/simulated/open,
 /area/eris/hallway/main/section3)
 "cJi" = (
@@ -58763,9 +58767,13 @@
 	},
 /area/eris/hallway/main/section4)
 "cLn" = (
-/obj/structure/railing{
-	dir = 1
-	},
+/obj/structure/catwalk,
+/obj/structure/table/standard,
+/obj/item/part/gun/modular/barrel/shotgun,
+/obj/item/part/gun/modular/barrel/shotgun,
+/obj/item/part/gun/modular/barrel/shotgun,
+/obj/item/part/gun/modular/barrel/shotgun,
+/obj/item/part/gun/modular/barrel/shotgun,
 /turf/simulated/open,
 /area/eris/hallway/main/section3)
 "cLo" = (
@@ -58797,6 +58805,9 @@
 	},
 /obj/structure/railing{
 	dir = 1
+	},
+/obj/structure/railing{
+	dir = 8
 	},
 /turf/simulated/open,
 /area/eris/hallway/main/section3)
@@ -92477,6 +92488,17 @@
 	dir = 1;
 	pixel_y = -23
 	},
+/obj/structure/table/standard,
+/obj/item/ammo_magazine/ammobox/clrifle,
+/obj/item/ammo_magazine/ammobox/clrifle,
+/obj/item/ammo_magazine/ammobox/clrifle,
+/obj/item/ammo_magazine/ammobox/clrifle,
+/obj/item/ammo_magazine/ammobox/clrifle,
+/obj/item/ammo_magazine/c10x24,
+/obj/item/ammo_magazine/c10x24,
+/obj/item/ammo_magazine/c10x24,
+/obj/item/ammo_magazine/c10x24,
+/obj/item/ammo_magazine/c10x24,
 /turf/simulated/floor/tiled/steel/cargo,
 /area/eris/storage/primary)
 "enR" = (
@@ -95215,6 +95237,17 @@
 /area/eris/quartermaster/misc)
 "euk" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/structure/table/standard,
+/obj/item/ammo_magazine/ammobox/shotgun,
+/obj/item/ammo_magazine/ammobox/shotgun,
+/obj/item/ammo_magazine/ammobox/shotgun,
+/obj/item/ammo_magazine/ammobox/shotgun,
+/obj/item/ammo_magazine/ammobox/shotgun,
+/obj/item/ammo_magazine/m12,
+/obj/item/ammo_magazine/m12,
+/obj/item/ammo_magazine/m12,
+/obj/item/ammo_magazine/m12,
+/obj/item/ammo_magazine/m12,
 /turf/simulated/floor/tiled/steel/cargo,
 /area/eris/storage/primary)
 "eul" = (
@@ -95273,6 +95306,17 @@
 /obj/machinery/firealarm{
 	pixel_y = 28
 	},
+/obj/structure/table/standard,
+/obj/item/ammo_magazine/ammobox/shotgun/incendiaryshells,
+/obj/item/ammo_magazine/ammobox/shotgun/incendiaryshells,
+/obj/item/ammo_magazine/ammobox/shotgun/incendiaryshells,
+/obj/item/ammo_magazine/ammobox/shotgun/incendiaryshells,
+/obj/item/ammo_magazine/ammobox/shotgun/incendiaryshells,
+/obj/item/ammo_magazine/m12/empty,
+/obj/item/ammo_magazine/m12/empty,
+/obj/item/ammo_magazine/m12/empty,
+/obj/item/ammo_magazine/m12/empty,
+/obj/item/ammo_magazine/m12/empty,
 /turf/simulated/floor/tiled/steel/cargo,
 /area/eris/storage/primary)
 "eus" = (
@@ -101040,10 +101084,10 @@
 "faY" = (
 /obj/structure/table/standard,
 /obj/machinery/button/remote/blast_door{
-	pixel_y = -4;
-	pixel_x = 4;
+	id = "neotheology_shop";
 	name = "NeoTheology Shop Access";
-	id = "neotheology_shop"
+	pixel_x = 4;
+	pixel_y = -4
 	},
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/neotheology/churchbooth)
@@ -101364,6 +101408,23 @@
 	},
 /turf/simulated/floor/tiled/steel/bar_dance,
 /area/eris/crew_quarters/bar)
+"fTf" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/structure/table/standard,
+/obj/item/ammo_magazine/ammobox/srifle,
+/obj/item/ammo_magazine/ammobox/srifle,
+/obj/item/ammo_magazine/ammobox/srifle,
+/obj/item/ammo_magazine/ammobox/srifle,
+/obj/item/ammo_magazine/ammobox/srifle,
+/obj/item/ammo_magazine/srifle/long,
+/obj/item/ammo_magazine/srifle/long,
+/obj/item/ammo_magazine/srifle/long,
+/obj/item/ammo_magazine/srifle/long,
+/obj/item/ammo_magazine/srifle/long,
+/turf/simulated/floor/tiled/steel/cargo,
+/area/eris/storage/primary)
 "fUC" = (
 /obj/spawner/junk/low_chance,
 /obj/machinery/camera/network/command,
@@ -102048,7 +102109,13 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section3deck4port)
 "hxU" = (
-/obj/structure/railing,
+/obj/structure/catwalk,
+/obj/structure/table/standard,
+/obj/item/part/gun/modular/barrel/lrifle,
+/obj/item/part/gun/modular/barrel/lrifle,
+/obj/item/part/gun/modular/barrel/lrifle,
+/obj/item/part/gun/modular/barrel/lrifle,
+/obj/item/part/gun/modular/barrel/lrifle,
 /turf/simulated/open,
 /area/eris/hallway/main/section3)
 "hzE" = (
@@ -102312,8 +102379,8 @@
 /obj/effect/window_lwall_spawn/smartspawn,
 /obj/machinery/door/blast/shutters{
 	dir = 8;
-	name = "First Officer Line Access";
-	id = "firstofficer_access"
+	id = "firstofficer_access";
+	name = "First Officer Line Access"
 	},
 /turf/simulated/floor/plating,
 /area/eris/command/fo)
@@ -103447,9 +103514,7 @@
 /turf/simulated/floor/tiled/steel/bar_light,
 /area/eris/crew_quarters/bar)
 "kOE" = (
-/obj/structure/railing{
-	dir = 8
-	},
+/obj/structure/railing,
 /turf/simulated/open,
 /area/eris/hallway/main/section3)
 "kPU" = (
@@ -103898,6 +103963,16 @@
 /obj/item/modular_computer/console/preset/engineering/atmos,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/eris/engineering/engine_room)
+"lVi" = (
+/obj/structure/catwalk,
+/obj/structure/table/standard,
+/obj/item/part/gun/modular/mechanism/autorifle/determined,
+/obj/item/part/gun/modular/mechanism/autorifle/determined,
+/obj/item/part/gun/modular/mechanism/autorifle/determined,
+/obj/item/part/gun/modular/mechanism/autorifle/determined,
+/obj/item/part/gun/modular/mechanism/autorifle/determined,
+/turf/simulated/open,
+/area/eris/hallway/main/section3)
 "lWf" = (
 /obj/machinery/door/firedoor,
 /obj/effect/window_lwall_spawn/smartspawn,
@@ -104327,6 +104402,12 @@
 	},
 /turf/simulated/floor/tiled/steel/cargo,
 /area/eris/engineering/engine_room)
+"mZJ" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/simulated/open,
+/area/eris/hallway/main/section3)
 "nab" = (
 /obj/structure/table/bar_special,
 /turf/simulated/floor/tiled/steel/bar_flat,
@@ -104489,6 +104570,16 @@
 /obj/item/storage/secure/briefcase,
 /turf/simulated/floor/carpet,
 /area/eris/crew_quarters/barconference)
+"npm" = (
+/obj/structure/catwalk,
+/obj/structure/table/standard,
+/obj/item/gun/projectile/automatic/modular/ak/excelsior,
+/obj/item/gun/projectile/automatic/modular/ak/excelsior,
+/obj/item/gun/projectile/automatic/modular/ak/excelsior,
+/obj/item/gun/projectile/automatic/modular/ak/excelsior,
+/obj/item/gun/projectile/automatic/modular/ak/excelsior,
+/turf/simulated/open,
+/area/eris/hallway/main/section3)
 "nqt" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -104510,6 +104601,16 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck5port)
+"nsf" = (
+/obj/structure/catwalk,
+/obj/structure/table/standard,
+/obj/item/part/gun/modular/mechanism/autorifle/burst,
+/obj/item/part/gun/modular/mechanism/autorifle/burst,
+/obj/item/part/gun/modular/mechanism/autorifle/burst,
+/obj/item/part/gun/modular/mechanism/autorifle/burst,
+/obj/item/part/gun/modular/mechanism/autorifle/burst,
+/turf/simulated/open,
+/area/eris/hallway/main/section3)
 "nsA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -104757,6 +104858,9 @@
 "ofB" = (
 /obj/structure/railing{
 	dir = 4
+	},
+/obj/structure/railing{
+	dir = 8
 	},
 /turf/simulated/open,
 /area/eris/hallway/main/section3)
@@ -105012,6 +105116,16 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/eris/engineering/engine_room)
+"oIh" = (
+/obj/structure/catwalk,
+/obj/structure/table/standard,
+/obj/item/gun/projectile/automatic/modular/ak/frozen_star,
+/obj/item/gun/projectile/automatic/modular/ak/frozen_star,
+/obj/item/gun/projectile/automatic/modular/ak/frozen_star,
+/obj/item/gun/projectile/automatic/modular/ak/frozen_star,
+/obj/item/gun/projectile/automatic/modular/ak/frozen_star,
+/turf/simulated/open,
+/area/eris/hallway/main/section3)
 "oIp" = (
 /obj/structure/railing{
 	dir = 4
@@ -105556,6 +105670,16 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/eris/engineering/engine_room)
+"qbM" = (
+/obj/structure/catwalk,
+/obj/structure/table/standard,
+/obj/item/part/gun/modular/mechanism/autorifle/fullauto,
+/obj/item/part/gun/modular/mechanism/autorifle/fullauto,
+/obj/item/part/gun/modular/mechanism/autorifle/fullauto,
+/obj/item/part/gun/modular/mechanism/autorifle/fullauto,
+/obj/item/part/gun/modular/mechanism/autorifle/fullauto,
+/turf/simulated/open,
+/area/eris/hallway/main/section3)
 "qcf" = (
 /obj/machinery/door/firedoor,
 /obj/effect/window_lwall_spawn/plasma/reinforced,
@@ -106299,6 +106423,16 @@
 /obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/techmaint_cargo,
 /area/eris/maintenance/section3deck5port)
+"sbS" = (
+/obj/structure/catwalk,
+/obj/structure/table/standard,
+/obj/item/part/gun/modular/barrel/srifle,
+/obj/item/part/gun/modular/barrel/srifle,
+/obj/item/part/gun/modular/barrel/srifle,
+/obj/item/part/gun/modular/barrel/srifle,
+/obj/item/part/gun/modular/barrel/srifle,
+/turf/simulated/open,
+/area/eris/hallway/main/section3)
 "sbX" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -106722,6 +106856,21 @@
 	},
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/neotheology/chapelritualroom)
+"sRd" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/structure/table/standard,
+/obj/item/ammo_magazine/ammobox/shotgun/buckshot,
+/obj/item/ammo_magazine/ammobox/shotgun/buckshot,
+/obj/item/ammo_magazine/ammobox/shotgun/buckshot,
+/obj/item/ammo_magazine/ammobox/shotgun/buckshot,
+/obj/item/ammo_magazine/ammobox/shotgun/buckshot,
+/obj/item/ammo_magazine/m12/empty,
+/obj/item/ammo_magazine/m12/empty,
+/obj/item/ammo_magazine/m12/empty,
+/obj/item/ammo_magazine/m12/empty,
+/obj/item/ammo_magazine/m12/empty,
+/turf/simulated/floor/tiled/steel/cargo,
+/area/eris/storage/primary)
 "sRW" = (
 /obj/structure/catwalk,
 /obj/structure/catwalk,
@@ -106873,6 +107022,16 @@
 	},
 /turf/simulated/floor/tiled/dark/golden,
 /area/eris/neotheology/churchbarracks)
+"tgx" = (
+/obj/structure/catwalk,
+/obj/structure/table/standard,
+/obj/item/gun/projectile/automatic/modular/ak/serbian_arms,
+/obj/item/gun/projectile/automatic/modular/ak/serbian_arms,
+/obj/item/gun/projectile/automatic/modular/ak/serbian_arms,
+/obj/item/gun/projectile/automatic/modular/ak/serbian_arms,
+/obj/item/gun/projectile/automatic/modular/ak/serbian_arms,
+/turf/simulated/open,
+/area/eris/hallway/main/section3)
 "tiH" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -106904,6 +107063,23 @@
 	},
 /turf/simulated/floor/wood,
 /area/eris/medical/psych)
+"tjm" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/structure/table/standard,
+/obj/item/ammo_magazine/ammobox/lrifle,
+/obj/item/ammo_magazine/ammobox/lrifle,
+/obj/item/ammo_magazine/ammobox/lrifle,
+/obj/item/ammo_magazine/ammobox/lrifle,
+/obj/item/ammo_magazine/ammobox/lrifle,
+/obj/item/ammo_magazine/lrifle,
+/obj/item/ammo_magazine/lrifle,
+/obj/item/ammo_magazine/lrifle,
+/obj/item/ammo_magazine/lrifle,
+/obj/item/ammo_magazine/lrifle,
+/turf/simulated/floor/tiled/steel/cargo,
+/area/eris/storage/primary)
 "tlr" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -107476,6 +107652,16 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/hallway/side/section3deck2port)
+"uCe" = (
+/obj/structure/catwalk,
+/obj/structure/table/standard,
+/obj/item/part/gun/modular/mechanism/autorifle,
+/obj/item/part/gun/modular/mechanism/autorifle,
+/obj/item/part/gun/modular/mechanism/autorifle,
+/obj/item/part/gun/modular/mechanism/autorifle,
+/obj/item/part/gun/modular/mechanism/autorifle,
+/turf/simulated/open,
+/area/eris/hallway/main/section3)
 "uCf" = (
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plating,
@@ -108754,6 +108940,16 @@
 	},
 /turf/simulated/floor/carpet/purcarpet,
 /area/eris/command/meo)
+"xUg" = (
+/obj/structure/catwalk,
+/obj/structure/table/standard,
+/obj/item/part/gun/modular/barrel/clrifle,
+/obj/item/part/gun/modular/barrel/clrifle,
+/obj/item/part/gun/modular/barrel/clrifle,
+/obj/item/part/gun/modular/barrel/clrifle,
+/obj/item/part/gun/modular/barrel/clrifle,
+/turf/simulated/open,
+/area/eris/hallway/main/section3)
 "xUk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
@@ -108899,6 +109095,16 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/hull,
 /area/eris/command/exultant)
+"yeN" = (
+/obj/structure/catwalk,
+/obj/structure/table/standard,
+/obj/item/gun/projectile/automatic/modular/ak/ironhammer_securities,
+/obj/item/gun/projectile/automatic/modular/ak/ironhammer_securities,
+/obj/item/gun/projectile/automatic/modular/ak/ironhammer_securities,
+/obj/item/gun/projectile/automatic/modular/ak/ironhammer_securities,
+/obj/item/gun/projectile/automatic/modular/ak/ironhammer_securities,
+/turf/simulated/open,
+/area/eris/hallway/main/section3)
 "yit" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = -28
@@ -249419,7 +249625,7 @@ cIm
 dAk
 ecC
 efX
-enJ
+fTf
 dAk
 cID
 cJf
@@ -249621,7 +249827,7 @@ dXA
 dAk
 ecC
 egi
-enJ
+tjm
 dAk
 cIE
 cJg
@@ -249630,7 +249836,7 @@ cIm
 eul
 cPo
 dAk
-euk
+sRd
 ewI
 exy
 dAk
@@ -250022,22 +250228,22 @@ dmo
 bZc
 xOd
 xOd
-xOd
 kOE
-kOE
-kOE
-xOd
-xOd
-hxU
 nVf
 nVf
-cLn
-xOd
-xOd
-kOE
-kOE
-kOE
-xOd
+nVf
+nVf
+nVf
+nVf
+nVf
+nVf
+nVf
+nVf
+nVf
+nVf
+nVf
+nVf
+mZJ
 xOd
 xOd
 chY
@@ -250224,22 +250430,22 @@ dmo
 cpe
 xOd
 xOd
-xOd
-xOd
-xOd
-xOd
-xOd
-xOd
-hxU
+kOE
 nVf
 nVf
-cLn
-xOd
-xOd
-xOd
-xOd
-xOd
-xOd
+nVf
+nVf
+nVf
+nVf
+nVf
+nVf
+nVf
+nVf
+nVf
+nVf
+nVf
+nVf
+mZJ
 xOd
 xOd
 cwM
@@ -250426,22 +250632,22 @@ dmo
 cpe
 xOd
 xOd
-xOd
-xOd
-xOd
-xOd
-xOd
-xOd
+kOE
+npm
+oIh
+yeN
+tgx
+xUg
 hxU
 nVf
 nVf
 cLn
-xOd
-xOd
-xOd
-xOd
-xOd
-xOd
+sbS
+qbM
+lVi
+nsf
+uCe
+mZJ
 xOd
 xOd
 cwM
