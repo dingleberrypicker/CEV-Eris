@@ -58773,7 +58773,6 @@
 /obj/item/part/gun/modular/barrel/shotgun,
 /obj/item/part/gun/modular/barrel/shotgun,
 /obj/item/part/gun/modular/barrel/shotgun,
-/obj/item/part/gun/modular/barrel/shotgun,
 /turf/simulated/open,
 /area/eris/hallway/main/section3)
 "cLo" = (
@@ -95307,16 +95306,16 @@
 	pixel_y = 28
 	},
 /obj/structure/table/standard,
-/obj/item/ammo_magazine/ammobox/shotgun/incendiaryshells,
-/obj/item/ammo_magazine/ammobox/shotgun/incendiaryshells,
-/obj/item/ammo_magazine/ammobox/shotgun/incendiaryshells,
-/obj/item/ammo_magazine/ammobox/shotgun/incendiaryshells,
-/obj/item/ammo_magazine/ammobox/shotgun/incendiaryshells,
-/obj/item/ammo_magazine/m12/empty,
-/obj/item/ammo_magazine/m12/empty,
-/obj/item/ammo_magazine/m12/empty,
-/obj/item/ammo_magazine/m12/empty,
-/obj/item/ammo_magazine/m12/empty,
+/obj/item/ammo_magazine/ammobox/magnum,
+/obj/item/ammo_magazine/ammobox/magnum,
+/obj/item/ammo_magazine/ammobox/magnum,
+/obj/item/ammo_magazine/ammobox/magnum,
+/obj/item/ammo_magazine/ammobox/magnum,
+/obj/item/ammo_magazine/msmg,
+/obj/item/ammo_magazine/msmg,
+/obj/item/ammo_magazine/msmg,
+/obj/item/ammo_magazine/msmg,
+/obj/item/ammo_magazine/msmg,
 /turf/simulated/floor/tiled/steel/cargo,
 /area/eris/storage/primary)
 "eus" = (
@@ -102115,7 +102114,18 @@
 /obj/item/part/gun/modular/barrel/lrifle,
 /obj/item/part/gun/modular/barrel/lrifle,
 /obj/item/part/gun/modular/barrel/lrifle,
-/obj/item/part/gun/modular/barrel/lrifle,
+/obj/item/part/gun/modular/barrel/pistol{
+	pixel_y = 12
+	},
+/obj/item/part/gun/modular/barrel/pistol{
+	pixel_y = 12
+	},
+/obj/item/part/gun/modular/barrel/pistol{
+	pixel_y = 12
+	},
+/obj/item/part/gun/modular/barrel/pistol{
+	pixel_y = 12
+	},
 /turf/simulated/open,
 /area/eris/hallway/main/section3)
 "hzE" = (
@@ -103966,11 +103976,34 @@
 "lVi" = (
 /obj/structure/catwalk,
 /obj/structure/table/standard,
-/obj/item/part/gun/modular/mechanism/autorifle/determined,
-/obj/item/part/gun/modular/mechanism/autorifle/determined,
-/obj/item/part/gun/modular/mechanism/autorifle/determined,
-/obj/item/part/gun/modular/mechanism/autorifle/determined,
-/obj/item/part/gun/modular/mechanism/autorifle/determined,
+/obj/item/part/gun/modular/mechanism/autorifle/heavy,
+/obj/item/part/gun/modular/mechanism/autorifle/heavy,
+/obj/item/part/gun/modular/mechanism/autorifle/heavy,
+/obj/item/part/gun/modular/mechanism/autorifle/heavy,
+/obj/item/part/gun/modular/mechanism/autorifle/light{
+	pixel_y = 9
+	},
+/obj/item/part/gun/modular/mechanism/autorifle/light{
+	pixel_y = 9
+	},
+/obj/item/part/gun/modular/mechanism/autorifle/light{
+	pixel_y = 9
+	},
+/obj/item/part/gun/modular/mechanism/autorifle/light{
+	pixel_y = 9
+	},
+/obj/item/part/gun/modular/mechanism/autorifle/determined{
+	pixel_y = -9
+	},
+/obj/item/part/gun/modular/mechanism/autorifle/determined{
+	pixel_y = -9
+	},
+/obj/item/part/gun/modular/mechanism/autorifle/determined{
+	pixel_y = -9
+	},
+/obj/item/part/gun/modular/mechanism/autorifle/determined{
+	pixel_y = -9
+	},
 /turf/simulated/open,
 /area/eris/hallway/main/section3)
 "lWf" = (
@@ -104604,11 +104637,22 @@
 "nsf" = (
 /obj/structure/catwalk,
 /obj/structure/table/standard,
-/obj/item/part/gun/modular/mechanism/autorifle/burst,
-/obj/item/part/gun/modular/mechanism/autorifle/burst,
-/obj/item/part/gun/modular/mechanism/autorifle/burst,
-/obj/item/part/gun/modular/mechanism/autorifle/burst,
-/obj/item/part/gun/modular/mechanism/autorifle/burst,
+/obj/item/part/gun/modular/mechanism/autorifle/sharpshooter,
+/obj/item/part/gun/modular/mechanism/autorifle/sharpshooter,
+/obj/item/part/gun/modular/mechanism/autorifle/sharpshooter,
+/obj/item/part/gun/modular/mechanism/autorifle/sharpshooter,
+/obj/item/part/gun/modular/mechanism/autorifle/marksman{
+	pixel_y = 9
+	},
+/obj/item/part/gun/modular/mechanism/autorifle/marksman{
+	pixel_y = 9
+	},
+/obj/item/part/gun/modular/mechanism/autorifle/marksman{
+	pixel_y = 9
+	},
+/obj/item/part/gun/modular/mechanism/autorifle/marksman{
+	pixel_y = 9
+	},
 /turf/simulated/open,
 /area/eris/hallway/main/section3)
 "nsA" = (
@@ -105673,11 +105717,34 @@
 "qbM" = (
 /obj/structure/catwalk,
 /obj/structure/table/standard,
-/obj/item/part/gun/modular/mechanism/autorifle/fullauto,
-/obj/item/part/gun/modular/mechanism/autorifle/fullauto,
-/obj/item/part/gun/modular/mechanism/autorifle/fullauto,
-/obj/item/part/gun/modular/mechanism/autorifle/fullauto,
-/obj/item/part/gun/modular/mechanism/autorifle/fullauto,
+/obj/item/part/gun/modular/mechanism/autorifle{
+	pixel_y = 9
+	},
+/obj/item/part/gun/modular/mechanism/autorifle{
+	pixel_y = 9
+	},
+/obj/item/part/gun/modular/mechanism/autorifle{
+	pixel_y = 9
+	},
+/obj/item/part/gun/modular/mechanism/autorifle{
+	pixel_y = 9
+	},
+/obj/item/part/gun/modular/mechanism/autorifle/basic,
+/obj/item/part/gun/modular/mechanism/autorifle/basic,
+/obj/item/part/gun/modular/mechanism/autorifle/basic,
+/obj/item/part/gun/modular/mechanism/autorifle/basic,
+/obj/item/part/gun/modular/mechanism/autorifle/simple{
+	pixel_y = -9
+	},
+/obj/item/part/gun/modular/mechanism/autorifle/simple{
+	pixel_y = -9
+	},
+/obj/item/part/gun/modular/mechanism/autorifle/simple{
+	pixel_y = -9
+	},
+/obj/item/part/gun/modular/mechanism/autorifle/simple{
+	pixel_y = -9
+	},
 /turf/simulated/open,
 /area/eris/hallway/main/section3)
 "qcf" = (
@@ -106430,7 +106497,18 @@
 /obj/item/part/gun/modular/barrel/srifle,
 /obj/item/part/gun/modular/barrel/srifle,
 /obj/item/part/gun/modular/barrel/srifle,
-/obj/item/part/gun/modular/barrel/srifle,
+/obj/item/part/gun/modular/barrel/magnum{
+	pixel_y = 16
+	},
+/obj/item/part/gun/modular/barrel/magnum{
+	pixel_y = 16
+	},
+/obj/item/part/gun/modular/barrel/magnum{
+	pixel_y = 16
+	},
+/obj/item/part/gun/modular/barrel/magnum{
+	pixel_y = 16
+	},
 /turf/simulated/open,
 /area/eris/hallway/main/section3)
 "sbX" = (
@@ -107655,11 +107733,16 @@
 "uCe" = (
 /obj/structure/catwalk,
 /obj/structure/table/standard,
-/obj/item/part/gun/modular/mechanism/autorifle,
-/obj/item/part/gun/modular/mechanism/autorifle,
-/obj/item/part/gun/modular/mechanism/autorifle,
-/obj/item/part/gun/modular/mechanism/autorifle,
-/obj/item/part/gun/modular/mechanism/autorifle,
+/obj/item/ammo_magazine/ammobox/pistol,
+/obj/item/ammo_magazine/ammobox/pistol,
+/obj/item/ammo_magazine/ammobox/pistol,
+/obj/item/ammo_magazine/ammobox/pistol,
+/obj/item/ammo_magazine/ammobox/pistol,
+/obj/item/ammo_magazine/smg,
+/obj/item/ammo_magazine/smg,
+/obj/item/ammo_magazine/smg,
+/obj/item/ammo_magazine/smg,
+/obj/item/ammo_magazine/smg,
 /turf/simulated/open,
 /area/eris/hallway/main/section3)
 "uCf" = (
@@ -108943,7 +109026,6 @@
 "xUg" = (
 /obj/structure/catwalk,
 /obj/structure/table/standard,
-/obj/item/part/gun/modular/barrel/clrifle,
 /obj/item/part/gun/modular/barrel/clrifle,
 /obj/item/part/gun/modular/barrel/clrifle,
 /obj/item/part/gun/modular/barrel/clrifle,
