@@ -96842,11 +96842,15 @@
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck1central)
 "exO" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/camera/network/third_section{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/steel,
+/obj/structure/table/rack/shelf,
+/obj/item/clothing/suit/armor/bulletproof/ironhammer,
+/obj/item/clothing/suit/armor/bulletproof/ironhammer,
+/obj/item/clothing/head/armor/helmet/ironhammer,
+/obj/item/clothing/head/armor/helmet/ironhammer,
+/turf/simulated/floor/tiled/steel/gray_perforated,
 /area/eris/hallway/main/section3)
 "exP" = (
 /obj/machinery/door/firedoor,
@@ -97005,15 +97009,12 @@
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/eris/storage/primary)
 "eyi" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/camera/network/third_section{
-	dir = 8
-	},
-/obj/item/device/radio/intercom{
-	dir = 8;
-	pixel_x = 22
-	},
-/turf/simulated/floor/tiled/steel,
+/obj/structure/table/rack/shelf,
+/obj/item/clothing/suit/armor/vest/full,
+/obj/item/clothing/suit/armor/vest/full,
+/obj/item/clothing/head/armor/helmet,
+/obj/item/clothing/head/armor/helmet,
+/turf/simulated/floor/tiled/steel/gray_perforated,
 /area/eris/hallway/main/section3)
 "eyj" = (
 /obj/machinery/disposal,
@@ -102183,6 +102184,14 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck5port)
+"hFo" = (
+/obj/structure/table/rack/shelf,
+/obj/item/clothing/suit/armor/vest/handmade/full,
+/obj/item/clothing/suit/armor/vest/handmade/full,
+/obj/item/clothing/head/armor/helmet/handmade,
+/obj/item/clothing/head/armor/helmet/handmade,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/eris/hallway/main/section3)
 "hGz" = (
 /obj/structure/table/standard,
 /obj/item/reagent_containers/spray/cleaner,
@@ -102300,6 +102309,21 @@
 /obj/effect/window_lwall_spawn/smartspawn,
 /turf/simulated/floor/plating,
 /area/eris/neotheology/chapelritualroom)
+"hRa" = (
+/obj/machinery/camera/network/third_section{
+	dir = 8
+	},
+/obj/item/device/radio/intercom{
+	dir = 8;
+	pixel_x = 22
+	},
+/obj/structure/table/rack/shelf,
+/obj/item/clothing/suit/space/void/onestar,
+/obj/item/clothing/suit/space/void/onestar,
+/obj/item/clothing/suit/space/void/onestar,
+/obj/item/clothing/suit/space/void/onestar,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/eris/hallway/main/section3)
 "hRl" = (
 /obj/effect/window_lwall_spawn/smartspawn,
 /obj/machinery/door/blast/shutters{
@@ -104368,6 +104392,14 @@
 	},
 /turf/simulated/floor/tiled/steel/monofloor,
 /area/eris/crew_quarters/fitness)
+"mJV" = (
+/obj/structure/table/rack/shelf,
+/obj/item/clothing/suit/storage/scavengerarmor,
+/obj/item/clothing/suit/storage/scavengerarmor,
+/obj/item/clothing/head/armor/helmet/scavengerhelmet,
+/obj/item/clothing/head/armor/helmet/scavengerhelmet,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/eris/hallway/main/section3)
 "mKQ" = (
 /obj/machinery/alarm{
 	dir = 8;
@@ -107332,6 +107364,14 @@
 	},
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/eris/quartermaster/hangarsupply)
+"tFp" = (
+/obj/structure/table/rack/shelf,
+/obj/item/clothing/suit/armor/custodian,
+/obj/item/clothing/suit/armor/custodian,
+/obj/item/clothing/head/armor/custodian,
+/obj/item/clothing/head/armor/custodian,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/eris/hallway/main/section3)
 "tHD" = (
 /obj/machinery/smartfridge/drying_rack,
 /turf/simulated/floor/wood,
@@ -107666,6 +107706,14 @@
 	},
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/neotheology/chapelritualroom)
+"uva" = (
+/obj/structure/table/rack/shelf,
+/obj/item/clothing/suit/space/void/SCAF,
+/obj/item/clothing/suit/space/void/SCAF,
+/obj/item/clothing/suit/space/void/SCAF,
+/obj/item/clothing/suit/space/void/SCAF,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/eris/hallway/main/section3)
 "uvI" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/simple/visible/black{
@@ -251324,13 +251372,13 @@ cwM
 cEb
 cFe
 cFP
-exO
 cFP
 cFP
 cFP
 cFP
 cFP
-eyi
+cFP
+cFP
 cFP
 cUW
 cXo
@@ -251526,13 +251574,13 @@ cwM
 cEb
 cFf
 cFQ
-buH
-cwM
-cwM
-cwM
-cwM
-cwM
-buH
+exO
+eyi
+tFp
+mJV
+uva
+hFo
+hRa
 cQT
 cUZ
 cXv
@@ -251728,13 +251776,13 @@ dxs
 cpo
 cpo
 cFT
+buH
 cwM
-xOd
-xOd
-xOd
-xOd
-xOd
 cwM
+cwM
+cwM
+cwM
+buH
 cRC
 cVd
 cpo
