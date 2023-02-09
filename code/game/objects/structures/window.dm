@@ -147,22 +147,10 @@
 
 /obj/structure/window/bullet_act(var/obj/item/projectile/Proj)
 
-	if(config.z_level_shooting && Proj.height)
-		if(Proj.height == HEIGHT_LOW)// Bullet is too low
-			return TRUE
-		else if(Proj.height == HEIGHT_HIGH) // Guaranteed hit
-			var/proj_damage = Proj.get_structure_damage()
-			if(proj_damage)
-				hit(proj_damage)
-			..()
-			return TRUE
-
-	var/targetzone = check_zone(Proj.def_zone)
-	if(targetzone in list(BP_CHEST, BP_HEAD, BP_L_ARM, BP_R_ARM))
-		var/proj_damage = Proj.get_structure_damage()
-		if(proj_damage)
-			hit(proj_damage)
-		..()
+	var/proj_damage = Proj.get_structure_damage()
+	if(proj_damage)
+		hit(proj_damage)
+	..()
 
 	return TRUE
 
